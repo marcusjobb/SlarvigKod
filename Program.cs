@@ -198,13 +198,14 @@ static void ShowDiscountList()
 {
     Console.Write("Ange belopp: ");
     var b = double.Parse(GetInput());
+    var save = " kr (spara ";
 
     Console.WriteLine("\nRabatter:");
-    Console.WriteLine("10%: " + (b * 0.9) + " kr (spara " + (b * 0.1) + " kr)");
-    Console.WriteLine("15%: " + (b * 0.85) + " kr (spara " + (b * 0.15) + " kr)");
-    Console.WriteLine("20%: " + (b * 0.8) + " kr (spara " + (b * 0.2) + " kr)");
-    Console.WriteLine("25%: " + (b * 0.75) + " kr (spara " + (b * 0.25) + " kr)");
-    Console.WriteLine("30%: " + (b * 0.7) + " kr (spara " + (b * 0.3) + " kr)");
-    Console.WriteLine("50%: " + (b * 0.5) + " kr (spara " + (b * 0.5) + " kr)");
+    Console.WriteLine("10%: " + (b * 0.9) + save + (b * 0.1) + " kr)");
+    Console.WriteLine("15%: " + (b * 0.85) + save + (b * 0.15) + " kr)");
+    Console.WriteLine("20%: " + (b * 0.8) + save + (b * 0.2) + " kr)");
+    Console.WriteLine("25%: " + (b * 0.75) + save + (b * 0.25) + " kr)");
+    Console.WriteLine("30%: " + (b * 0.7) + save + (b * 0.3) + " kr)");
+    Console.WriteLine("50%: " + (b * 0.5) + save + (b * 0.5) + " kr)");
     Console.WriteLine();
 }

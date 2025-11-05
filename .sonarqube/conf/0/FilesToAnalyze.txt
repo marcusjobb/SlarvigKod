@@ -1,0 +1,11 @@
+﻿C:\git\VS\refactoring_playground\Hund.cs
+C:\git\VS\refactoring_playground\Katt.cs
+C:\git\VS\refactoring_playground\Program.cs
+C:\git\VS\refactoring_playground\.editorconfig
+C:\git\VS\refactoring_playground\.gitattributes
+C:\git\VS\refactoring_playground\.gitignore
+C:\git\VS\refactoring_playground\CODE_SMELLS.md
+C:\git\VS\refactoring_playground\LARAR_GUIDE.md
+C:\git\VS\refactoring_playground\README.md
+C:\git\VS\refactoring_playground\REFACTORING_CHECKLIST.md
+C:\git\VS\refactoring_playground\run-sonar.cmd

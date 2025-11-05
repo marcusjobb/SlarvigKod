@@ -1,0 +1,1 @@
+C:\git\VS\refactoring_playground\.sonarqube\out\0
